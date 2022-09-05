@@ -96,3 +96,20 @@ input[type=text], [type=password], [type=email] {
     flex-grow: 1;
     padding-left: 20px;
 }
+
+/* Chatter */
+.chatter {
+    display: flex;
+}
+.chatter .profile-pic {
+    font-size: 50px;
+    margin-right: 20px;
+}
+.chatter p {
+    margin-top: 0;
+    font-size: 18px;
+}
+.chatter .metadata {
+    font-size: 14px;
+    color: grey;
+}
