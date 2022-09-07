@@ -68,6 +68,7 @@ input[type=text], [type=password], [type=email] {
     background-color: darkolivegreen;
     border: none;
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 .login-button {
@@ -112,4 +113,17 @@ input[type=text], [type=password], [type=email] {
 .chatter .metadata {
     font-size: 14px;
     color: grey;
+}
+
+/* New users */
+.new-user {
+    display: flex;
+    align-items: center;
+}
+.new-user .profile-pic {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.new-user p {
+    margin: 0 0 20px 0;
 }
