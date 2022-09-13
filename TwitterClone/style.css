@@ -16,6 +16,11 @@ header {
     font-family: 'Pacifico', cursive;
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+}
+
 main {
     flex-grow: 1;
     background: url("./images/login-background.jpg");
@@ -30,6 +35,21 @@ input[type=text], [type=password], [type=email] {
     width: 100%;
     margin-bottom: 10px;
 }
+
+.primary-button {
+    color: black;
+    background-color: darkolivegreen;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
 /* Login page */
 .login-box-container {
     display: flex;
@@ -61,14 +81,6 @@ input[type=text], [type=password], [type=email] {
 .login-box a {
     font-weight: bold;
     color: black;
-}
-
-.primary-button {
-    color: black;
-    background-color: darkolivegreen;
-    border: none;
-    padding: 10px 20px;
-    text-decoration: none;
 }
 
 .login-button {
@@ -126,4 +138,19 @@ input[type=text], [type=password], [type=email] {
 }
 .new-user p {
     margin: 0 0 20px 0;
+}
+
+/* Post page */
+.post-container {
+    width: 100%;
+    max-width: 500px;
+}
+.post-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-container textarea {
+    width: 100%;
+    height: 120px;
 }
