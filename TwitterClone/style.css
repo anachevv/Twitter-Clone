@@ -6,21 +6,6 @@ body {
     height: 100%;
 }
 
-header {
-    /* background-color: #586A6A; */
-    background-color: darkolivegreen;
-    padding: 15px;
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    font-family: 'Pacifico', cursive;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-}
-
 main {
     flex-grow: 1;
     background: url("./images/login-background.jpg");
@@ -44,10 +29,50 @@ input[type=text], [type=password], [type=email] {
     text-decoration: none;
 }
 
+.secondary-button {
+    background-color: #8f001a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
 .form-actions {
     display: flex;
     justify-content: flex-end;
     margin-top: 10px;
+}
+
+/* Header */
+header {
+    /* background-color: #586A6A; */
+    background-color: darkolivegreen;
+    padding: 15px;
+    text-align: center;
+    min-height: 40px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    position: absolute;
+    left: calc(50% - 35px);
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-actions {
+    float: right;
+    margin-top: 12px;
+}
+
+.header-actions .fas {
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
 }
 
 /* Login page */
